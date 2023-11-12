@@ -4,9 +4,240 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8612bd54-3db6-47b5-9673-4df9a4e71b1d" name="Changes" comment="add Dockerfile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="8612bd54-3db6-47b5-9673-4df9a4e71b1d" name="Changes" comment="update Dockerfile">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.4/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2023,_00_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_11_2023__00_54__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2023,_00_55_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_11_2023__00_55__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/team44/com/app/AppApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/team44/com/app/DatabaseLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/team44/com/app/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/team44/com/app/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/team44/com/app/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/team44/com/app/AppApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/bin/app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/bin/app.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/HikariCP-5.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/angus-activation-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/antlr4-runtime-4.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/app-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/aspectjweaver-1.9.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/attoparser-2.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/byte-buddy-1.14.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/h2-2.1.214.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/hibernate-commons-annotations-6.0.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/hibernate-core-6.2.13.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/istack-commons-runtime-4.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-annotations-2.15.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-core-2.15.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-databind-2.15.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-datatype-jdk8-2.15.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-datatype-jsr310-2.15.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jackson-module-parameter-names-2.15.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jakarta.activation-api-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jakarta.annotation-api-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jakarta.inject-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jakarta.persistence-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jakarta.transaction-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jakarta.xml.bind-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jandex-3.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jaxb-core-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jaxb-runtime-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jboss-logging-3.5.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/jul-to-slf4j-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/log4j-api-2.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/log4j-to-slf4j-2.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/logback-classic-1.4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/logback-core-1.4.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/micrometer-commons-1.11.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/micrometer-observation-1.11.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/slf4j-api-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/snakeyaml-1.33.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-aop-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-aspects-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-beans-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-autoconfigure-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-aop-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-data-jpa-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-jdbc-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-json-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-logging-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-thymeleaf-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-tomcat-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-boot-starter-web-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-context-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-core-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-data-commons-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-data-jpa-3.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-expression-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-jcl-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-jdbc-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-orm-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-tx-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-web-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/spring-webmvc-6.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/thymeleaf-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/thymeleaf-spring6-3.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/tomcat-embed-core-10.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/tomcat-embed-el-10.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/tomcat-embed-websocket-10.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/txw2-4.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/install/app/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/app-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/app-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/team44.com.app.AppApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/team44.com.app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/public/family.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/assets/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/EndOfGame/EndOfGame.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/EndOfGame/EndOfGame.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Footer/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Footer/Footer.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Header/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Header/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Main/Main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Main/Main.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Rules/Rules.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/Rules/Rules.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/puzzle-board/puzzle-board.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/puzzle-board/puzzle-board.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/puzzle-piece/puzzle-piece.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/components/puzzle-piece/puzzle-piece.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/images/father_daughter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/images/father_two_daughters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/images/mother_daughter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/images/Снимок.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/app.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-team44.com.app.AppApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AppApplication.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/DatabaseLoader.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team44/com/app/AppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team44/com/app/DatabaseLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team44/com/app/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team44/com/app/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team44/com/app/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/public/family.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/assets/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/EndOfGame/EndOfGame.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/EndOfGame/EndOfGame.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Footer/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Footer/Footer.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Header/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Header/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Main/Main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Main/Main.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Rules/Rules.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/Rules/Rules.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/puzzle-board/puzzle-board.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/puzzle-board/puzzle-board.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/puzzle-piece/puzzle-piece.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/components/puzzle-piece/puzzle-piece.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/images/father_daughter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/images/father_two_daughters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/images/mother_daughter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/images/Снимок.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team44/com/app/AppApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/family.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/EndOfGame/EndOfGame.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/EndOfGame/EndOfGame.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Footer/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Footer/Footer.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header/Header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Main/Main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Main/Main.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Rules/Rules.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Rules/Rules.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/puzzle-board/puzzle-board.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/puzzle-board/puzzle-board.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/puzzle-piece/puzzle-piece.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/puzzle-piece/puzzle-piece.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/images/father_daughter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/images/father_two_daughters.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/images/mother_daughter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/images/Снимок.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +304,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "android.gradle.sync.needed": "true",
     "last_opened_file_path": "/home/kitdim/Desktop/prog/test/app",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29533282"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.dockerfile: Compose Deployment">
+  <component name="RunManager" selected="Docker.Dockerfile: Compose Deployment">
     <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="team44.com.app.AppApplication" />
       <module name="app.main" />
@@ -159,28 +391,28 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+    <configuration name="Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="sourceFilePath" value="dockerfile" />
+          <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.AppApplication" />
-      <item itemvalue="Docker.dockerfile: Compose Deployment" />
+      <item itemvalue="Docker.Dockerfile: Compose Deployment" />
       <item itemvalue="Gradle.app [installDist]" />
       <item itemvalue="Gradle.app [build]" />
       <item itemvalue="Gradle.app [clean]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile: Compose Deployment" />
         <item itemvalue="Gradle.app [installDist]" />
         <item itemvalue="Gradle.app [build]" />
         <item itemvalue="Application.AppApplication" />
@@ -229,13 +461,38 @@
       <option name="project" value="LOCAL" />
       <updated>1699786271644</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update Dockerfile">
+      <option name="closed" value="true" />
+      <created>1699786679238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699786679238</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update Dockerfile">
+      <option name="closed" value="true" />
+      <created>1699786806168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699786806168</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update Dockerfile">
+      <option name="closed" value="true" />
+      <created>1699786813475</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699786813475</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавление серверной части" />
     <MESSAGE value="добавление функционала извлечение из бд 15 лучших пользователей" />
     <MESSAGE value="add Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Dockerfile" />
+    <MESSAGE value="update Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Dockerfile" />
   </component>
 </project>

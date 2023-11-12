@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8612bd54-3db6-47b5-9673-4df9a4e71b1d" name="Changes" comment="add Dockerfile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Y1yaUZpXsKtJ5F8M4tqfWYTKVO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/kitdim/Desktop/prog/test/app",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29533282"
+  }
+}]]></component>
+  <component name="RunManager" selected="Docker.dockerfile: Compose Deployment">
+    <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="team44.com.app.AppApplication" />
+      <module name="app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team44.com.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="app [installDist]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="installDist" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.AppApplication" />
+      <item itemvalue="Docker.dockerfile: Compose Deployment" />
+      <item itemvalue="Gradle.app [installDist]" />
+      <item itemvalue="Gradle.app [build]" />
+      <item itemvalue="Gradle.app [clean]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.dockerfile: Compose Deployment" />
+        <item itemvalue="Gradle.app [installDist]" />
+        <item itemvalue="Gradle.app [build]" />
+        <item itemvalue="Application.AppApplication" />
+        <item itemvalue="Gradle.app [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8612bd54-3db6-47b5-9673-4df9a4e71b1d" name="Changes" comment="" />
+      <created>1699707444549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699707444549</updated>
+    </task>
+    <task id="LOCAL-00001" summary="добавление серверной части">
+      <option name="closed" value="true" />
+      <created>1699738836168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699738836168</updated>
+    </task>
+    <task id="LOCAL-00002" summary="добавление функционала извлечение из бд 15 лучших пользователей">
+      <option name="closed" value="true" />
+      <created>1699744610251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699744610251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Dockerfile">
+      <option name="closed" value="true" />
+      <created>1699785985783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699785985783</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add Dockerfile">
+      <option name="closed" value="true" />
+      <created>1699786271644</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699786271644</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавление серверной части" />
+    <MESSAGE value="добавление функционала извлечение из бд 15 лучших пользователей" />
+    <MESSAGE value="add Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Dockerfile" />
+  </component>
+</project>
