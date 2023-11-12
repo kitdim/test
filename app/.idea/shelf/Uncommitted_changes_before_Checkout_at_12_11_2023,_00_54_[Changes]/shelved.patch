@@ -1,0 +1,32 @@
+Index: ../README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># React + Vite\n\nThis template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.\n\nCurrently, two official plugins are available:\n\n- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh\n- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../README.md b/../README.md
+--- a/../README.md	(revision 188a6a9fd007b115feb9101bdf7a85de6017a33b)
++++ b/../README.md	(date 1699729425558)
+@@ -1,4 +1,15 @@
+-# React + Vite
++# Slider game
++### Номер команды/контакты
++#### Номер команды: 44
++1. https://t.me/kit_dim
++2. https://t.me/darya_kolotilina
++3. https://t.me/leshabulgakov
++### Cтек проекта
++### Описание
++### Инструкция, как развернуть проект локально
++### Ссылка на деплой
++
++<!--- # React + Vite
+ 
+ This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 
+@@ -6,3 +17,4 @@
+ 
+ - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+ - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
++--> 
