@@ -79,7 +79,7 @@
     "project.structure.side.proportion": "0.29533282"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Docker.dockerfile: Compose Deployment">
     <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="team44.com.app.AppApplication" />
       <module name="app.main" />
@@ -159,28 +159,28 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile" />
       <method v="2" />
     </configuration>
+    <configuration name="dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.AppApplication" />
-      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.dockerfile: Compose Deployment" />
       <item itemvalue="Gradle.app [installDist]" />
       <item itemvalue="Gradle.app [build]" />
       <item itemvalue="Gradle.app [clean]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.dockerfile: Compose Deployment" />
         <item itemvalue="Gradle.app [installDist]" />
         <item itemvalue="Gradle.app [build]" />
         <item itemvalue="Application.AppApplication" />
